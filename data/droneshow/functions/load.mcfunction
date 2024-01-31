@@ -8,12 +8,10 @@ function droneshow:summon/master
 
 # Scoreboard shenanigans
 function droneshow:sub_load/setup_scoreboard
-function droneshow:mover/setup_scoreboard
-<<<<<<< Updated upstream
-=======
+function droneshow:mover/setup_scoreboards
 
 # Kill the previous blocks
 function droneshow:kill_block_displays
 
-execute as @e[tag=drone] run function droneshow:mover/pid_calculate
->>>>>>> Stashed changes
+#execute as @e[tag=drone] run function droneshow:mover/pid_calculate
+

@@ -42,7 +42,7 @@ scoreboard players operation @s Output > MinOutput Constants
 scoreboard players operation @s NewPosY = @s Measured
 scoreboard players operation @s NewPosY += @s Output
 
-execute store result storage pid:pos Y double 0.01 run scoreboard players get @s NewPosY
+execute store result storage pid:pos Y double 1 run scoreboard players get @s NewPosY
 data modify entity @s Pos[1] set from storage pid:pos Y
 
-schedule function droneshow:mover/pid_calculate 10t
+#schedule function droneshow:mover/pid_forward 100t

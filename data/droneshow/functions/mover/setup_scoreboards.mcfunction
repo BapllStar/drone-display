@@ -26,9 +26,9 @@ scoreboard objectives add Constants dummy
 scoreboard objectives add NewPosY dummy
 
 # Initialize the PID constants
-scoreboard players set Kp Constants 10
-scoreboard players set Ki Constants 1
-scoreboard players set Kd Constants 1
+scoreboard players set Kp Constants 1
+scoreboard players set Ki Constants 0.01
+scoreboard players set Kd Constants 0
 
 # Initialize variables
 scoreboard players set @s P_term 0
@@ -41,12 +41,13 @@ scoreboard players set @s PreviousError 0
 scoreboard players set @s Setpoint 0
 scoreboard players set @s Measured 0
 scoreboard players set @s Output 0
+scoreboard players set @s NewPosY 0
 
 # Additional setup for Integral windup prevention
-scoreboard players set MaxIntegral Constants 10  # Adjust this value as needed
-scoreboard players set MinIntegral Constants -10 # Adjust this value as needed
+scoreboard players set MaxIntegral Constants 10
+scoreboard players set MinIntegral Constants -10
 
 # In setup.mcfunction
-scoreboard players set MaxOutput Constants 10  # Adjust this value as needed
-scoreboard players set MinOutput Constants -10 # Adjust this value as needed
+scoreboard players set MaxOutput Constants 10
+scoreboard players set MinOutput Constants -10
 
