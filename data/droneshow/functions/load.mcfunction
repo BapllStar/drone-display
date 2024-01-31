@@ -5,7 +5,6 @@ function droneshow:kill_block_displays
 
 # Summon important stuff
 function droneshow:summon/master
-function droneshow:summon/spawner
 
 # Scoreboard shenanigans
 function droneshow:sub_load/setup_scoreboard
