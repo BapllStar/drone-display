@@ -1,3 +1,1 @@
-scoreboard objectives add lifetime dummy
-team add Adult
-tellraw @a {"text":"Mate has been reloaded","color":"green"}
+tellraw @a {"text":"Drone Show has been reloaded","color":"aqua"}
