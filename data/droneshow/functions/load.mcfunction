@@ -5,6 +5,7 @@ function droneshow:summon/spawner
 
 # Scoreboard shenanigans
 function droneshow:sub_load/setup_scoreboard
+function droneshow:mover/setup_scoreboard
 
 # Kill the previous blocks
 function droneshow:kill_block_displays
