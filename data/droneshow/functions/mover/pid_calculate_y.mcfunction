@@ -39,9 +39,11 @@ scoreboard players operation @s Output_Y += @s D_term_Y
 # Clamp the Output to MaxOutput and MinOutput
 scoreboard players operation @s Output_Y < MaxOutput Constants
 scoreboard players operation @s Output_Y > MinOutput Constants
+scoreboard players operation @s Temp_Output_Y = @s Output_Y
+scoreboard players operation @s Temp_Output_Y /= OutputMultipier Constants
 
 scoreboard players operation @s NewPosY = @s Measured_Y
-scoreboard players operation @s NewPosY += @s Output_Y
+scoreboard players operation @s NewPosY += @s Temp_Output_Y
 
 execute store result storage pid:pos Y double 0.00001 run scoreboard players get @s NewPosY
 data modify entity @s Pos[1] set from storage pid:pos Y
