@@ -1,63 +1,40 @@
-execute as @s[scores={cs_timer=1}] at @s run summon armor_stand ~ ~ ~ {Tags:["temp_anim_stand"],NoGravity:1b, Invisible:1b, marker:1b}
-execute as @s[scores={cs_timer=1}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~0.100000 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=2}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~0.049750 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=3}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-0.009141 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=4}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-0.078624 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=5}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-0.161278 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=6}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-0.260497 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=7}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-0.380541 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=8}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-0.525970 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=9}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-0.699210 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=10}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-0.895266 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=11}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-1.098391 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=12}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-1.289979 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=13}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-1.459820 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=14}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-1.606664 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=15}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-1.733252 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=16}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-1.843068 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=17}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-1.939196 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=18}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.024110 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=19}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.099744 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=20}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.167598 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=21}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.228853 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=22}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.284442 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=23}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.335118 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=24}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.381491 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=25}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.424063 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=26}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.463253 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=27}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.499412 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=28}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.532839 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=29}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.563788 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=30}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.592480 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=31}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.619105 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=32}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.643831 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=33}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.666803 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=34}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.688152 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=35}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.707993 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=36}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.726428 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=37}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.743550 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=38}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.759442 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=39}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.774180 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=40}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.787830 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=41}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.800455 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=42}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.812111 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=43}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.822850 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=44}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.832720 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=45}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.841764 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=46}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.850022 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=47}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.857533 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=48}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.864329 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=49}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.870444 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=50}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.875907 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=51}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.880746 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=52}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.884987 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=53}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.888654 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=54}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.891769 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=55}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.894355 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=56}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.896431 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=57}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.898017 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=58}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.899129 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=59}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.899785 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=60}] at @e[tag=temp_anim_stand, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.900000 ~0.000000 -359.999997 -0.000003
-execute as @s[scores={cs_timer=60}] at @s run kill @e[tag=temp_anim_stand, limit=1, sort=nearest]
+execute as @s[scores={cs_timer=5}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] as @e[tag=Blue,limit=4,sort=nearest, distance=0.1..1.3, tag=!view] run scoreboard players set @s scene 2
+
+execute as @s[scores={cs_timer=6}] run data modify entity @s block_state.Name set value "magenta_concrete"
+execute as @s[scores={cs_timer=12}] run data modify entity @s block_state.Name set value "purple_concrete"
+execute as @s[scores={cs_timer=18}] run data modify entity @s block_state.Name set value "blue_concrete"
+execute as @s[scores={cs_timer=24}] run data modify entity @s block_state.Name set value "light_blue_concrete"
+execute as @s[scores={cs_timer=30}] run data modify entity @s block_state.Name set value "cyan_concrete"
+execute as @s[scores={cs_timer=36}] run data modify entity @s block_state.Name set value "green_concrete"
+execute as @s[scores={cs_timer=42}] run data modify entity @s block_state.Name set value "lime_concrete"
+execute as @s[scores={cs_timer=48}] run data modify entity @s block_state.Name set value "yellow_concrete"
+execute as @s[scores={cs_timer=52}] run data modify entity @s block_state.Name set value "orange_concrete"
+execute as @s[scores={cs_timer=60}] run data modify entity @s block_state.Name set value "red_concrete"
+
+execute as @s[scores={cs_timer=1}] at @s run summon armor_stand ~ ~ ~ {Tags:["temp_anim_stand_Down"],NoGravity:1b, Invisible:1b, marker:1b}
+execute as @s[scores={cs_timer=1}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~0.000000 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=4}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-0.078624 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=7}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-0.380541 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=10}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-0.895266 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=13}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-1.459820 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=16}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-1.843068 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=19}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.099744 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=22}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.284442 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=25}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.424063 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=28}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.532839 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=31}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.619105 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=34}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.688152 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=37}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.743550 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=40}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.787830 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=43}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.822850 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=46}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.850022 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=49}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.870444 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=52}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.884987 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=55}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.894355 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=58}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.899129 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=60}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~-2.900000 ~0.000000 -359.999997 -0.000003
+execute as @s[scores={cs_timer=60}] run tag @s remove Up
+execute as @s[scores={cs_timer=60}] run tag @s add Down
+execute as @s[scores={cs_timer=60}] at @s run kill @e[tag=temp_anim_stand_Down, limit=1, sort=nearest]
 execute as @s[scores={cs_timer=60}] at @s run function cutscene:cam_stop
+

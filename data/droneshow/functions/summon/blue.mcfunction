@@ -1,1 +1,1 @@
-summon minecraft:block_display ~ ~ ~ {Tags:["Blue"],block_state:{Name:"minecraft:blue_wool"}}
+summon minecraft:block_display ~ ~ ~ {Tags:["Blue","Down"],block_state:{Name:"minecraft:blue_wool"},teleport_duration:10}

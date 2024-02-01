@@ -1,1 +1,1 @@
-summon minecraft:block_display ~ ~ ~ {Tags:["Master"]}
+execute unless @e[tag=Master] run summon minecraft:block_display ~ ~ ~ {Tags:["Master"]}
