@@ -1,8 +1,8 @@
 scoreboard objectives add rows dummy
 scoreboard objectives add columns dummy
 
-scoreboard players set @e[tag=Master] rows 100
-scoreboard players set @e[tag=Master] columns 100
+scoreboard players set @e[tag=Master] rows 20
+scoreboard players set @e[tag=Master] columns 20
 
 scoreboard objectives add current_row dummy
 scoreboard objectives add current_column dummy
