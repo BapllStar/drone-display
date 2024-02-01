@@ -1,3 +1,8 @@
+scoreboard players operation @e[tag=Master,limit=1] decide_colour = @e[tag=Master,limit=1] min_colours
+scoreboard players operation @e[tag=Master,limit=1] decide_colour += @e[tag=Master,limit=1] current_column
+function droneshow:range/colour
+
+
 function droneshow:step/row
 scoreboard players set @e[tag=Master] current_row 0
 scoreboard players add @e[tag=Master] current_column 1
