@@ -18,3 +18,5 @@ function droneshow:mover/setup_scoreboards
 # 16824 for 20x20
 gamerule maxCommandChainLength 420576
 
+#tag @e[tag=Master] add HasHitbox
+tag @e[tag=Master] remove HasHitbox
