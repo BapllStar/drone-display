@@ -1,6 +1,6 @@
 {
     "values": [
         "droneshow:load",
-        "cutscene:tick"
+        "cutscene:load"
     ]
 }
