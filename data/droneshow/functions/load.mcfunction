@@ -16,5 +16,5 @@ function droneshow:mover/setup_scoreboards
 # 420576 for 100x100
 # 105144 for 50x50
 # 16824 for 20x20
-gamerule maxCommandChainLength 16824
+gamerule maxCommandChainLength 420576
 
