@@ -1,2 +1,2 @@
-execute positioned ~ ~ ~ run function droneshow:step/column
+execute positioned ~.2 ~ ~.2 run function droneshow:step/column
 scoreboard players set @e[tag=Master] current_column 0

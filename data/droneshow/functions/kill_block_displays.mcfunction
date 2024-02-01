@@ -1,4 +1,5 @@
 kill @e[tag=Blue]
+kill @e[tag=Block_Shulker]
 kill @e[tag=Spot]
 kill @e[tag=Spawner]
 kill @e[tag=temp_anim_stand_Down]

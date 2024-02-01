@@ -1,2 +1,2 @@
 summon minecraft:block_display ~ ~ ~ {Tags:["Spot"]}
-function droneshow:summon/blue
+function droneshow:summon/colour_block
