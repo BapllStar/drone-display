@@ -1,15 +1,15 @@
 execute as @s[scores={cs_timer=5}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] as @e[tag=Blue,limit=4,sort=nearest, distance=0.1..1.3, tag=!view] run scoreboard players set @s scene 2
 
-execute as @s[scores={cs_timer=6}] run data modify entity @s block_state.Name set value "magenta_concrete"
-execute as @s[scores={cs_timer=12}] run data modify entity @s block_state.Name set value "purple_concrete"
-execute as @s[scores={cs_timer=18}] run data modify entity @s block_state.Name set value "blue_concrete"
-execute as @s[scores={cs_timer=24}] run data modify entity @s block_state.Name set value "light_blue_concrete"
-execute as @s[scores={cs_timer=30}] run data modify entity @s block_state.Name set value "cyan_concrete"
-execute as @s[scores={cs_timer=36}] run data modify entity @s block_state.Name set value "green_concrete"
-execute as @s[scores={cs_timer=42}] run data modify entity @s block_state.Name set value "lime_concrete"
-execute as @s[scores={cs_timer=48}] run data modify entity @s block_state.Name set value "yellow_concrete"
-execute as @s[scores={cs_timer=52}] run data modify entity @s block_state.Name set value "orange_concrete"
-execute as @s[scores={cs_timer=60}] run data modify entity @s block_state.Name set value "red_concrete"
+execute as @s[scores={cs_timer=6},tag=colorchange] run data modify entity @s block_state.Name set value "magenta_concrete"
+execute as @s[scores={cs_timer=12},tag=colorchange] run data modify entity @s block_state.Name set value "purple_concrete"
+execute as @s[scores={cs_timer=18},tag=colorchange] run data modify entity @s block_state.Name set value "blue_concrete"
+execute as @s[scores={cs_timer=24},tag=colorchange] run data modify entity @s block_state.Name set value "light_blue_concrete"
+execute as @s[scores={cs_timer=30},tag=colorchange] run data modify entity @s block_state.Name set value "cyan_concrete"
+execute as @s[scores={cs_timer=36},tag=colorchange] run data modify entity @s block_state.Name set value "green_concrete"
+execute as @s[scores={cs_timer=42},tag=colorchange] run data modify entity @s block_state.Name set value "lime_concrete"
+execute as @s[scores={cs_timer=48},tag=colorchange] run data modify entity @s block_state.Name set value "yellow_concrete"
+execute as @s[scores={cs_timer=52},tag=colorchange] run data modify entity @s block_state.Name set value "orange_concrete"
+execute as @s[scores={cs_timer=60},tag=colorchange] run data modify entity @s block_state.Name set value "red_concrete"
 
 execute as @s[scores={cs_timer=1}] at @s run summon armor_stand ~ ~ ~ {Tags:["temp_anim_stand_Down"],NoGravity:1b, Invisible:1b, marker:1b}
 execute as @s[scores={cs_timer=1}] at @e[tag=temp_anim_stand_Down, limit=1, sort=nearest] run tp @s[tag=view] ~0.000000 ~0.000000 ~0.000000 -359.999997 -0.000003
