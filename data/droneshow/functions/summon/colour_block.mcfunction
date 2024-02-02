@@ -1,6 +1,7 @@
 function droneshow:range/colour
 
-summon block_display ~ ~ ~ {NoGravity:1b,Silent:1b,Tags:["Blue","Down","Uncoloured"],Passengers:[{id:"minecraft:shulker",OnGround:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,DeathLootTable:"minecraft:empty",NoAI:1b,AttachFace:0b,Tags:["Block_Shulker"],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b}]}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,0f,-0.5f],scale:[1.f,1.f,1f]},block_state:{Name:"minecraft:blue_wool"},teleport_duration:10}
+execute if entity @e[tag=HasHitbox] run summon block_display ~ ~ ~ {NoGravity:1b,Silent:1b,Tags:["Blue","Down","Uncoloured"],Passengers:[{id:"minecraft:shulker",OnGround:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,DeathLootTable:"minecraft:empty",NoAI:1b,AttachFace:0b,Tags:["Block_Shulker"],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b}]}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,0f,-0.5f],scale:[1.f,1.f,1f]},block_state:{Name:"minecraft:white_wool"},teleport_duration:10}
+execute unless entity @e[tag=HasHitbox] run summon block_display ~ ~ ~ {NoGravity:1b,Silent:1b,Tags:["Blue","Down","Uncoloured"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,0f,-0.5f],scale:[1.f,1.f,1f]},block_state:{Name:"minecraft:white_wool"},teleport_duration:10}
 
 execute if score @e[tag=Master,limit=1] decide_colour matches 1 as @e[tag=Uncoloured] run function droneshow:summon/colour/blue
 execute if score @e[tag=Master,limit=1] decide_colour matches 2 as @e[tag=Uncoloured] run function droneshow:summon/colour/blue
